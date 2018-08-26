@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pelican = "*"
+markdown = "*"
+ghp-import = "*"
+#numpy="*"
+#scipy = "*"
+#pandas = "*"
+#matplotlib = "*"
+#"scikit-learn" = "*"
+#jupyter = "*"
+#jupyter-contrib-nbextensions = "*"
+#networkx = "*"
+#altair = "*"
+#vega-datasets = "*"
+#"vega3" = "*"
+#seaborn = "*"
+#statsmodels = "*"
+#datashader = "*"
+#bokeh = "*"
+#holoviews = "*"
+#wordcloud = "*"
+#spacy = "*"
+#feather-format = "*"
+
+[dev-packages]
