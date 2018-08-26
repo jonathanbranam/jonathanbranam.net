@@ -14,7 +14,7 @@ DEFAULT_LANG = 'en'
 
 STATIC_PATHS = ['images']
 
-THEME = '/Volumes/user/jbranam/work/pelican-themes/taman'
+THEME = '../pelican-themes/taman'
 
 # taman theme
 USER_LOGO_URL = 'images/JPB_headshot.jpg'
