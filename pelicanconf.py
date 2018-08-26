@@ -18,7 +18,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
 THEME = '../pelican-themes/taman'
 
 # taman theme
-USER_LOGO_URL = 'images/JPB_headshot.jpg'
+USER_LOGO_URL = '/images/JPB_headshot.jpg'
 TAGLINE = '''
 Data Scientist and Engineer
 '''
