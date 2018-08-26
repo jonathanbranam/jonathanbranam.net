@@ -1,1 +1,7 @@
+
+# Pelican output file
 output/
+
+# process id files
+*.pid
+
