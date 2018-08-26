@@ -12,7 +12,8 @@ TIMEZONE = 'America/Indiana/Indianapolis'
 
 DEFAULT_LANG = 'en'
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
 
 THEME = '../pelican-themes/taman'
 
