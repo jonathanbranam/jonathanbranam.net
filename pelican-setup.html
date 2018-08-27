@@ -10,9 +10,9 @@
   <meta name="description" content="Posts and writings by Jonathan Branam">
   <title>
     Jonathan Branam
-&ndash; My First Cell Phone Review  </title>
+&ndash; Pelican setup  </title>
 
-    <link rel="canonical" href="/my-first-cell-phone-review.html">
+    <link rel="canonical" href="/pelican-setup.html">
 
   <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="/theme/images/logo.png">
@@ -105,23 +105,58 @@ Follow me:
 
     <div class="eleven columns content">
   <p class="meta">
-    25 August 2018
+    26 August 2018
     <a href="/">
       <i class="home fa fa-home"></i>
     </a>
   </p>
 
-  <h1 class="title"><a href="/my-first-cell-phone-review.html">My First Cell Phone Review</a></h1>
+  <h1 class="title"><a href="/pelican-setup.html">Pelican setup</a></h1>
 
   <div class="article_text" id="post">
-    <p>I've been using an iPhone 5S for about 3 years now and it's doing pretty well.
-Sometimes I'll admit a little envy for a newer phone, but most of the time it
-handles my needs well enough.</p>
+    <div class="highlight"><pre><span></span>mkdir pelican.site
+cd pelican.site
+pipenv install pelican markdown
+git clone --recursive https://github.com/getpelican/pelican-themes
+git clone --recursive https://github.com/getpelican/pelican-plugins
+pipenv run make html
+pipenv run ./develop_server.sh start
+pipenv run ./develop_server.sh stop
+</pre></div>
+
+
+<p>Edit <code>pelicanconf.py</code>:</p>
+<div class="highlight"><pre><span></span>TIMEZONE = &#39;America/Indiana/Indianapolis&#39;
+
+STATIC_PATHS = [&#39;images&#39;, &#39;extra/CNAME&#39;]
+EXTRA_PATH_METADATA = {&#39;extra/CNAME&#39;: {&#39;path&#39;: &#39;CNAME&#39;}, }
+
+PLUGIN_PATHS = [&#39;../pelican-plugins&#39;]
+
+PLUGINS = [
+        &#39;assets&#39;,
+]
+
+THEME = &#39;../taman&#39;
+# THEME = &#39;../pelican-themes/taman&#39;
+
+# taman theme
+USER_LOGO_URL = &#39;/images/JPB_headshot.jpg&#39;
+TAGLINE = &#39;&#39;&#39;
+Data Scientist and Engineer
+&#39;&#39;&#39;
+# end taman theme
+</pre></div>
+
+
+<p>And then</p>
+<div class="highlight"><pre><span></span>pipenv install webassets cssmin
+</pre></div>
   </div>
 
   <div class="article_meta related">
     <h3>Category: </h3>
-    <span><a href="/category/review.html">Review</span>
+    <span><a href="/category/setup.html">Setup</span>
 
   </div>
 
