@@ -15,7 +15,14 @@ DEFAULT_LANG = 'en'
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
 
-THEME = '../pelican-themes/taman'
+PLUGIN_PATHS = ['../pelican-plugins']
+
+PLUGINS = [
+        'assets',
+]
+
+THEME = '../taman'
+# THEME = '../pelican-themes/taman'
 
 # taman theme
 USER_LOGO_URL = '/images/JPB_headshot.jpg'
