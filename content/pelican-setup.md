@@ -1,6 +1,7 @@
 Title: Pelican setup
 Date: 2018-08-26 14:00
 Category: Setup
+Tags: setup, tools, pelican
 
 ```
 mkdir pelican.site

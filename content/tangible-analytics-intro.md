@@ -1,6 +1,7 @@
 Title: Tangible Analytics Intro
 Date: 2018-08-25 23:09
 Category: Data Science
+Tags: tangible analytics, company, consulting
 
 Tangible Analytics is the data science consultancy of Jonathan Branam. I
 specialize in data analytics & visualization, machine learning, big data, and
