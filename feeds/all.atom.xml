@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jonathan Branam</title><link href="http://jonathanbranam.net/" rel="alternate"></link><link href="http://jonathanbranam.net/feeds/all.atom.xml" rel="self"></link><id>http://jonathanbranam.net/</id><updated>2018-08-28T11:15:00-04:00</updated><entry><title>Chrome Tab Management</title><link href="http://jonathanbranam.net/chrome-tab-management.html" rel="alternate"></link><published>2018-08-28T11:15:00-04:00</published><updated>2018-08-28T11:15:00-04:00</updated><author><name>Jonathan Branam</name></author><id>tag:jonathanbranam.net,2018-08-28:/chrome-tab-management.html</id><summary type="html">&lt;p&gt;I prefer Google Chrome for everything I do online (Firefox is an obvious second
+choice). Because so much information is now on the web and because I access so
+many applications through my browser, I can easily have dozens of browser tabs
+and windows open at the same time. This …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I prefer Google Chrome for everything I do online (Firefox is an obvious second
+choice). Because so much information is now on the web and because I access so
+many applications through my browser, I can easily have dozens of browser tabs
+and windows open at the same time. This creates a situation where switching
+between the windows and tabs to find and track what I'm doing can consume too
+much of my time. I often use a trail of browser windows as a breadcrumb of what
+I have been working on and things that I need to get back to throughout the day.
+This isn't a good management method, but it happens often enough that I need a
+better solution to manage it. I generally minimize some windows that I don't 
+currently need but that I might want to get back to later.&lt;/p&gt;
+&lt;p&gt;My screen often looks like this, or worse:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Messy Chrome" src="images/messy-chrome.png" title="Messy Chrome" width="600"&gt;&lt;/p&gt;
+&lt;p&gt;To help this situation I am trying to find a way to color the Chrome tabs and/or
+to use a tab manager to help organize my work. But I can't find a colorizer!&lt;/p&gt;
+&lt;p&gt;Tab managers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/cluster-window-tab-manage/aadahadfdmiibmdhfmpbeeebejmjnkef?hl=en"&gt;Cluster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="tools"></category><category term="resources"></category><category term="chrome"></category></entry><entry><title>Pelican resources</title><link href="http://jonathanbranam.net/pelican-resources.html" rel="alternate"></link><published>2018-08-27T12:00:00-04:00</published><updated>2018-08-27T12:00:00-04:00</updated><author><name>Jonathan Branam</name></author><id>tag:jonathanbranam.net,2018-08-27:/pelican-resources.html</id><summary type="html">&lt;p&gt;Here are some links and resources about Pelican:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican"&gt;Pelican Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fullstackpython.com/pelican.html"&gt;Full Stack Python Pelican Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Here are some links and resources about Pelican:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican"&gt;Pelican Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fullstackpython.com/pelican.html"&gt;Full Stack Python Pelican Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="pelican"></category><category term="tools"></category><category term="resources"></category></entry><entry><title>Pelican setup</title><link href="http://jonathanbranam.net/pelican-setup.html" rel="alternate"></link><published>2018-08-26T14:00:00-04:00</published><updated>2018-08-26T14:00:00-04:00</updated><author><name>Jonathan Branam</name></author><id>tag:jonathanbranam.net,2018-08-26:/pelican-setup.html</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mkdir pelican.site
+cd pelican.site
+pipenv install pelican markdown
+git clone --recursive https://github.com/getpelican/pelican-themes
+git clone --recursive https://github.com/getpelican/pelican-plugins
+pipenv run make html
+pipenv run ./develop_server.sh start
+pipenv run ./develop_server.sh stop
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Edit &lt;code&gt;pelicanconf.py&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;TIMEZONE = &amp;#39;America/Indiana/Indianapolis&amp;#39;
+
+STATIC_PATHS = [&amp;#39;images&amp;#39;, &amp;#39;extra …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mkdir pelican.site
+cd pelican.site
+pipenv install pelican markdown
+git clone --recursive https://github.com/getpelican/pelican-themes
+git clone --recursive https://github.com/getpelican/pelican-plugins
+pipenv run make html
+pipenv run ./develop_server.sh start
+pipenv run ./develop_server.sh stop
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Edit &lt;code&gt;pelicanconf.py&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;TIMEZONE = &amp;#39;America/Indiana/Indianapolis&amp;#39;
+
+STATIC_PATHS = [&amp;#39;images&amp;#39;, &amp;#39;extra/CNAME&amp;#39;]
+EXTRA_PATH_METADATA = {&amp;#39;extra/CNAME&amp;#39;: {&amp;#39;path&amp;#39;: &amp;#39;CNAME&amp;#39;}, }
+
+PLUGIN_PATHS = [&amp;#39;../pelican-plugins&amp;#39;]
+
+PLUGINS = [
+        &amp;#39;assets&amp;#39;,
+]
+
+THEME = &amp;#39;../taman&amp;#39;
+# THEME = &amp;#39;../pelican-themes/taman&amp;#39;
+
+# taman theme
+USER_LOGO_URL = &amp;#39;/images/JPB_headshot.jpg&amp;#39;
+TAGLINE = &amp;#39;&amp;#39;&amp;#39;
+Data Scientist and Engineer
+&amp;#39;&amp;#39;&amp;#39;
+# end taman theme
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And then&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pipenv install webassets cssmin
+&lt;/pre&gt;&lt;/div&gt;</content><category term="setup"></category><category term="tools"></category><category term="pelican"></category></entry><entry><title>Tangible Analytics Intro</title><link href="http://jonathanbranam.net/tangible-analytics-intro.html" rel="alternate"></link><published>2018-08-25T23:09:00-04:00</published><updated>2018-08-25T23:09:00-04:00</updated><author><name>Jonathan Branam</name></author><id>tag:jonathanbranam.net,2018-08-25:/tangible-analytics-intro.html</id><summary type="html">&lt;p&gt;Tangible Analytics is the data science consultancy of Jonathan Branam. I
+specialize in data analytics &amp;amp; visualization, machine learning, big data, and
+artificial intelligence. If you have data and need to learn actionable insights
+from it, I can help!&lt;/p&gt;
+&lt;p&gt;I favor using R for exploratory data analysis and visualization. Depending on …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tangible Analytics is the data science consultancy of Jonathan Branam. I
+specialize in data analytics &amp;amp; visualization, machine learning, big data, and
+artificial intelligence. If you have data and need to learn actionable insights
+from it, I can help!&lt;/p&gt;
+&lt;p&gt;I favor using R for exploratory data analysis and visualization. Depending on
+the data and the need, R or Python might good choices for machine learning and
+processing the data further.&lt;/p&gt;</content><category term="tangible analytics"></category><category term="company"></category><category term="consulting"></category></entry></feed>

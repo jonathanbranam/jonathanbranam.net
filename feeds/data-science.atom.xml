@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jonathan Branam - Data Science</title><link href="http://jonathanbranam.net/" rel="alternate"></link><link href="http://jonathanbranam.net/feeds/data-science.atom.xml" rel="self"></link><id>http://jonathanbranam.net/</id><updated>2018-08-25T23:09:00-04:00</updated><entry><title>Tangible Analytics Intro</title><link href="http://jonathanbranam.net/tangible-analytics-intro.html" rel="alternate"></link><published>2018-08-25T23:09:00-04:00</published><updated>2018-08-25T23:09:00-04:00</updated><author><name>Jonathan Branam</name></author><id>tag:jonathanbranam.net,2018-08-25:/tangible-analytics-intro.html</id><summary type="html">&lt;p&gt;Tangible Analytics is the data science consultancy of Jonathan Branam. I
+specialize in data analytics &amp;amp; visualization, machine learning, big data, and
+artificial intelligence. If you have data and need to learn actionable insights
+from it, I can help!&lt;/p&gt;
+&lt;p&gt;I favor using R for exploratory data analysis and visualization. Depending on …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tangible Analytics is the data science consultancy of Jonathan Branam. I
+specialize in data analytics &amp;amp; visualization, machine learning, big data, and
+artificial intelligence. If you have data and need to learn actionable insights
+from it, I can help!&lt;/p&gt;
+&lt;p&gt;I favor using R for exploratory data analysis and visualization. Depending on
+the data and the need, R or Python might good choices for machine learning and
+processing the data further.&lt;/p&gt;</content><category term="tangible analytics"></category><category term="company"></category><category term="consulting"></category></entry></feed>

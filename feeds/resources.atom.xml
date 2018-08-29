@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jonathan Branam - Resources</title><link href="http://jonathanbranam.net/" rel="alternate"></link><link href="http://jonathanbranam.net/feeds/resources.atom.xml" rel="self"></link><id>http://jonathanbranam.net/</id><updated>2018-08-27T12:00:00-04:00</updated><entry><title>Pelican resources</title><link href="http://jonathanbranam.net/pelican-resources.html" rel="alternate"></link><published>2018-08-27T12:00:00-04:00</published><updated>2018-08-27T12:00:00-04:00</updated><author><name>Jonathan Branam</name></author><id>tag:jonathanbranam.net,2018-08-27:/pelican-resources.html</id><summary type="html">&lt;p&gt;Here are some links and resources about Pelican:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican"&gt;Pelican Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fullstackpython.com/pelican.html"&gt;Full Stack Python Pelican Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Here are some links and resources about Pelican:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican"&gt;Pelican Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fullstackpython.com/pelican.html"&gt;Full Stack Python Pelican Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="pelican"></category><category term="tools"></category><category term="resources"></category></entry></feed>

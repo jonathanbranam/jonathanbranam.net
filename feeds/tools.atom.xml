@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jonathan Branam - Tools</title><link href="http://jonathanbranam.net/" rel="alternate"></link><link href="http://jonathanbranam.net/feeds/tools.atom.xml" rel="self"></link><id>http://jonathanbranam.net/</id><updated>2018-08-28T11:15:00-04:00</updated><entry><title>Chrome Tab Management</title><link href="http://jonathanbranam.net/chrome-tab-management.html" rel="alternate"></link><published>2018-08-28T11:15:00-04:00</published><updated>2018-08-28T11:15:00-04:00</updated><author><name>Jonathan Branam</name></author><id>tag:jonathanbranam.net,2018-08-28:/chrome-tab-management.html</id><summary type="html">&lt;p&gt;I prefer Google Chrome for everything I do online (Firefox is an obvious second
+choice). Because so much information is now on the web and because I access so
+many applications through my browser, I can easily have dozens of browser tabs
+and windows open at the same time. This …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I prefer Google Chrome for everything I do online (Firefox is an obvious second
+choice). Because so much information is now on the web and because I access so
+many applications through my browser, I can easily have dozens of browser tabs
+and windows open at the same time. This creates a situation where switching
+between the windows and tabs to find and track what I'm doing can consume too
+much of my time. I often use a trail of browser windows as a breadcrumb of what
+I have been working on and things that I need to get back to throughout the day.
+This isn't a good management method, but it happens often enough that I need a
+better solution to manage it. I generally minimize some windows that I don't 
+currently need but that I might want to get back to later.&lt;/p&gt;
+&lt;p&gt;My screen often looks like this, or worse:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Messy Chrome" src="images/messy-chrome.png" title="Messy Chrome" width="600"&gt;&lt;/p&gt;
+&lt;p&gt;To help this situation I am trying to find a way to color the Chrome tabs and/or
+to use a tab manager to help organize my work. But I can't find a colorizer!&lt;/p&gt;
+&lt;p&gt;Tab managers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/cluster-window-tab-manage/aadahadfdmiibmdhfmpbeeebejmjnkef?hl=en"&gt;Cluster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="tools"></category><category term="resources"></category><category term="chrome"></category></entry></feed>
